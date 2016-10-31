@@ -6,9 +6,9 @@
 */
 
 body {
-	-webkit-transition-duration: 1.2s;
-	-moz-transition-duration: 1.2s;
-	transition-duration: 1.2s;
+	-webkit-transition-duration: 1.2s; /*Safari and other WebKit browsers*/
+	-moz-transition-duration: 1.2s; /*Firefox and other gecko browsers [citation needed]*/
+	transition-duration: 1.2s; 
 }
 
 .btn {
